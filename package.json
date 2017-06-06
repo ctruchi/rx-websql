@@ -1,0 +1,30 @@
+{
+  "name": "rx-websql",
+  "version": "0.0.1",
+  "description": "Rework of Web Sql API with RxJS Observables",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -fr dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ctruchi/rx-websql.git"
+  },
+  "keywords": [
+    "websql",
+    "observable",
+    "rxjs"
+  ],
+  "author": "cyril.truchi@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ctruchi/rx-websql/issues"
+  },
+  "homepage": "https://github.com/ctruchi/rx-websql#readme",
+  "devDependencies": {
+    "@types/websql": "0.0.27"
+  },
+  "dependencies": {
+    "rxjs": "5.4.0"
+  }
+}
